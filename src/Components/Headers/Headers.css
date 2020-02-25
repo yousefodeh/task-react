@@ -1,0 +1,22 @@
+a.LinkBack { 
+   font-size: 70px;
+   text-shadow: 3px 3px 6px #000;
+   color: #fff;
+   text-align: center;
+   width: 100%;
+   letter-spacing: 2px;
+   padding: 8px 10px;
+}
+a.LinkBack:hover {
+   color: #ffffff;
+   border-color: #f1c556;
+}  
+a.LinkBack:active {  
+   color: #fff;
+   border-color: #f1c556;
+   box-shadow:none;
+}
+a.LinkBack:focus{
+   color: #fff;
+   border-color: #f1c556;
+}

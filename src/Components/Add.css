@@ -1,0 +1,58 @@
+.ResultsSymbolC {
+    color: green;
+}
+
+.ResultsSymbolInC{
+    color: red;
+}
+.Questions {
+    position: relative;
+    margin: 0 auto;
+    background-image: url("./wood.png");
+    background-color: #402400;
+    background-size: 13px, 29px, 37px, 53px;
+    border-radius: 5px;
+    padding: 0px 20px 20px;
+    margin: 0px 16px;
+    width: auto;
+}
+
+@media screen and (min-width: 769px) {
+    .Questions {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.Results {
+    font-size: 20px;
+    padding: 10px 5px 10px 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.puzzleGame {
+    background: #1e683d;
+    color: #fff;
+    border-radius: 30px;
+    min-height: 100%;
+    box-shadow: inset 1px 1px 10px #0f0f0f;
+  }
+  
+  .puzzleGame h1 {
+    font-size: 30px;
+    margin: 0 0 25px 10px;
+  }
+  
+  @media screen and (min-width: 400px) {
+    .puzzleGame {
+      padding: 20px 40px;
+      min-height: 300px;
+    }
+  
+    .puzzleGame h1 {
+      font-size: 35px;
+    }
+  }

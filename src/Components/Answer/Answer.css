@@ -1,0 +1,27 @@
+ a.a {
+    font-size: 25px;
+    display: flex;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    color: #fff;
+    border: 1px transparent solid;
+}
+
+ a.a:hover {
+    color: #dce869;
+    border-color: #dce869;
+}
+
+ a.a:active { 
+    color: #dce869;
+    border-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,255,0.1), 0 6px 20px 0 rgba(0,0,255,0.1);
+}
+
+ a.a:focus{
+    color: #dce869;
+    border-color: #dce869;
+}
+ 
